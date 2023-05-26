@@ -1,0 +1,1323 @@
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Responsividade */
+@media screen and (max-width: 750px) {
+  /* Alinhamento do Componente Header */
+  .header {
+    background-image: url('./images/HeaderBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 75px 0px;
+  }
+
+  .title {
+    color: #bb00ff;
+    font-size: 20px;
+  }
+
+  .subtitle {
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .subtitle2 {
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .btnHeader {
+    background-color: green;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  /* Alinhamento do Componente FirstMain */
+  .firstMain {
+    background-color: white;
+  }
+  .offerPrice {
+    color: #ff0000;
+    font-size: 17px;
+    margin: 20px 0px 10px;
+  }
+
+  .forOf {
+    font-size: 17px;
+    margin: 20px 0px 10px;
+  }
+
+  .price10 {
+    color: #19e835;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0px 10px;
+  }
+
+  .howDo {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 20px;
+  }
+
+  .howWin {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 20px;
+  }
+
+  .howIncreaseSales {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 20px 0px;
+  }
+
+  .responsesMainContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsesMain {
+    background-image: url('./images/ResponsesBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    text-align: left;
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+    
+  }
+
+  .titleContent {
+    color: #bb00ff;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .content {
+    text-align: left;
+    margin: 50px 20px;
+    font-size: 13px;
+  }
+
+  /* Alinhamento do Componente SecondMain */
+  .secondMain {
+    background-color: black;
+    padding: 40px;
+  }
+
+  .revelationTitle {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .cardsContainer {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .card-1 {
+    color: white;
+    text-align: center;
+    margin: 0px 10px 50px;
+  }
+  .card-2 {
+    color: white;
+    text-align: center;
+    margin: 0px 10px 50px;
+  }
+  .card-3 {
+    color: white;
+    text-align: center;
+    margin: 0px 10px 50px;
+  }
+  .titleCard {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .contentCard {
+    font-size: 15px;
+  }
+
+  .titlePrices {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 80px;
+  }
+  .card-price-1 {
+    background-image: url('./images/planBasicBG.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    padding: 15px 5px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-price-2 {
+    background-image: url('./images/planSuperOfferBG.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    padding: 0px 5px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .titlePriceCards {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin: 8px 0px 0px;
+  }
+  .subtitlePriceCards {
+    color: white;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .priceCards {
+    color: #19e835;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px 0px 0px;
+  }
+  .paymentForm {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  .checkAvail {
+    font-weight: bold;
+    /* margin: 0px 0px; */
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+  .noAvail {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+  .btnPrice {
+    background-color: #19e835;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    width: 120px;
+    justify-items: center;
+  }
+
+  /* Alinhamento do Componente ThirdMain */
+  .titleThirdMain {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .contentThirdMain {
+    font-size: 15px;
+    margin: 30px;
+  }
+  .titleWarranty {
+    font-size: 30px;
+    color: #bb00ff;
+    font-weight: bold;
+  }
+  .containerWarranty {
+    display: flex;
+    text-align: left;
+    margin: 30px 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .warrantySeal {
+    width: 250px;
+    height: 250px;
+  }
+  .sessionDiv {
+    border: black 1px solid;
+    width: 80%;
+  }
+
+  /* Alinhamento do Componente Biography */
+  .biography {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .titleProfile {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 20px;
+  }
+  .contentProfile {
+    font-size: 17px;
+    margin: 10px 20px;
+  }
+  .profileImage {
+    width: 244px;
+    height: 365px;
+    margin-top: 30px;
+  }
+
+  /* Alinhamento do Componente Help */
+  .help {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnHelp {
+    width: 250px;
+    border-radius: 20px;
+    background-color: #19e835;
+    color: white;
+    padding: 17px;
+    font-size: 17px;
+    margin: 30px;
+    font-weight: bold;
+  }
+  .contentHelp {
+    font-size: 16px;
+    margin: 15px 40px 15px;
+
+  }
+  .btnWhats {
+    width: 230px;
+    border-radius: 20px;
+    background-color: #61ce70;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 30px;
+    text-decoration: none;
+  }
+  .whatsIcon {
+    margin-right: 5px;
+  }
+
+  /* Alinhamento do Componente Footer */
+  footer {
+    background-image: url('./images/footerBG.png');
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .copyright {
+    margin: 0px 15px;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 940px) {
+  /* Alinhamento do Componente Header */
+  .header {
+    background-image: url('./images/HeaderBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+  }
+
+  .title {
+    color: #bb00ff;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .subtitle {
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .subtitle2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .btnHeader {
+    background-color: green;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  /* Alinhamento do Componente FirstMain */
+  .firstMain {
+    background-color: white;
+  }
+  .offerPrice {
+    color: #ff0000;
+    font-size: 25px;
+  }
+
+  .forOf {
+    font-size: 25px;
+  }
+
+  .price10 {
+    color: #19e835;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .howDo {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 50px;
+  }
+
+  .howWin {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 50px;
+  }
+
+  .howIncreaseSales {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 50px 0px 50px;
+  }
+
+  .responsesMainContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsesMain {
+    background-image: url('./images/ResponsesBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: left;
+    color: white;
+    padding: 40px;
+    font-size: 13px;
+  }
+
+  .titleContent {
+    color: #bb00ff;
+    font-size: 35px;
+    margin-top: 20px;
+  }
+
+  .content {
+    text-align: left;
+    margin: 50px 50px;
+    font-size: 20px;
+  }
+
+  /* Alinhamento do Componente SecondMain */
+  .secondMain {
+    background-color: black;
+    padding: 40px;
+  }
+
+  .revelationTitle {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .cardsContainer {
+    display: flex;
+    margin: 80px 0px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .card-1 {
+    color: white;
+    text-align: left;
+    margin: 0px 50px 80px;
+  }
+  .card-2 {
+    color: white;
+    text-align: left;
+    margin: 0px 50px 80px;
+  }
+  .card-3 {
+    color: white;
+    text-align: left;
+    margin: 0px 50px 80px;
+  }
+  .titleCard {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .contentCard {
+    font-size: 22px;
+  }
+
+  .titlePrices {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  .card-price-1 {
+    background-image: url('./images/planBasicBG.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    padding: 48px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-price-2 {
+    background-image: url('./images/planSuperOfferBG.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    padding: 10px 50px 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .titlePriceCards {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+  }
+  .subtitlePriceCards {
+    color: white;
+    margin-top: 5px;
+  }
+  .priceCards {
+    color: #19e835;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 40px 0px 0px;
+  }
+  .paymentForm {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .checkAvail {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 17px;
+  }
+  .noAvail {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 17px;
+  }
+  .btnPrice {
+    background-color: #19e835;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 250px;
+    justify-items: center;
+  }
+  
+  /* Alinhamento do Componente ThirdMain */
+  .thirdMain {
+    background-color: white;
+  }
+  .titleThirdMain {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .contentThirdMain {
+    font-size: 20px;
+    margin: 30px;
+  }
+  .titleWarranty {
+    font-size: 35px;
+    color: #bb00ff;
+    font-weight: bold;
+  }
+  .containerWarranty {
+    display: flex;
+    text-align: left;
+    margin: 30px 10px;
+    align-items: center;
+  }
+  .warrantySeal {
+    width: 250px;
+    height: 250px;
+  }
+  .sessionDiv {
+    border: black 1px solid;
+    width: 80%;
+  }
+
+  /* Alinhamento do Componente Biography */
+  .biography {
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    color: white;
+    text-align: left;
+    align-items: center;
+  }
+  .titleProfile {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  .contentProfile {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .profileImage {
+    width: 244px;
+    height: 365px;
+  }
+
+  /* Alinhamento do Componente Help */
+  .help {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnHelp {
+    width: 250px;
+    border-radius: 20px;
+    background-color: #19e835;
+    color: white;
+    padding: 17px;
+    font-size: 17px;
+    margin: 30px;
+    font-weight: bold;
+  }
+  .contentHelp {
+    font-size: 16px;
+    margin: 15px 40px 15px;
+
+  }
+  .btnWhats {
+    width: 230px;
+    border-radius: 20px;
+    background-color: #61ce70;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 30px;
+    text-decoration: none;
+  }
+  .whatsIcon {
+    margin-right: 5px;
+  }
+
+  /* Alinhamento do Componente Footer */
+  footer {
+    background-image: url('./images/footerBG.png');
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .copyright {
+    margin: 0px 15px;
+  }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1440px){  
+  /* Alinhamento do Componente Header */
+  .header {
+    background-image: url('./images/HeaderBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+  }
+
+  .title {
+    color: #bb00ff;
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  .subtitle {
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
+  .subtitle2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
+  .btnHeader {
+    background-color: green;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  /* Alinhamento do Componente FirstMain */
+  .firstMain {
+    background-color: white;
+  }
+
+  .offerPrice {
+    color: #ff0000;
+    font-size: 25px;
+  }
+
+  .forOf {
+    font-size: 25px;
+  }
+
+  .price10 {
+    color: #19e835;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .howDo {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 30px 40px;
+  }
+
+  .howWin {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 30px 40px;
+  }
+
+  .howIncreaseSales {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 30px 40px;
+  }
+
+  .responsesMainContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsesMain {
+    background-image: url('./images/ResponsesBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: left;
+    color: white;
+    padding: 50px;
+    font-size: 15px;
+  }
+
+  .titleContent {
+    color: #bb00ff;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .content {
+    text-align: left;
+    margin: 50px 100px;
+    font-size: 20px;
+  }
+
+  /* Alinhamento do Componente SecondMain */
+  .secondMain {
+    background-color: black;
+    padding: 40px;
+  }
+
+  .revelationTitle {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .cardsContainer {
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+  }
+
+  .card-1 {
+    color: white;
+    text-align: left;
+    margin: 0px 50px;
+  }
+  .card-2 {
+    color: white;
+    text-align: left;
+    margin: 0px 50px;
+  }
+  .card-3 {
+    color: white;
+    text-align: left;
+    margin: 0px 50px;
+  }
+  .titleCard {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .contentCard {
+    font-size: 22px;
+  }
+
+  .titlePrices {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  .card-price-1 {
+    background-image: url('./images/planBasicBG.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    padding: 48px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-price-2 {
+    background-image: url('./images/planSuperOfferBG.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    padding: 10px 17px;
+    display: flex;
+    flex-direction: column;
+  }
+  .titlePriceCards {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+  }
+  .subtitlePriceCards {
+    color: white;
+    margin-top: 5px;
+  }
+  .priceCards {
+    color: #19e835;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 40px 0px 0px;
+  }
+  .paymentForm {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .checkAvail {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 17px;
+  }
+  .noAvail {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 17px;
+  }
+  .btnPrice {
+    background-color: #19e835;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+
+  /* Alinhamento do Componente ThirdMain */
+  .thirdMain {
+    background-color: white;
+  }
+  .titleThirdMain {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .contentThirdMain {
+    font-size: 20px;
+    margin: 50px;
+  }
+  .titleWarranty {
+    font-size: 40px;
+    color: #bb00ff;
+    font-weight: bold;
+  }
+  .containerWarranty {
+    display: flex;
+    text-align: left;
+    margin: 30px 20px;
+    align-items: center;
+  }
+  .warrantySeal {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+  }
+  .sessionDiv {
+    border: black 1px solid;
+    width: 80%;
+  }
+
+  /* Alinhamento do Componente Biography */
+  .biography {
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    color: white;
+    text-align: left;
+    align-items: center;
+  }
+  .titleProfile {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  .contentProfile {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .profileImage {
+    width: 244px;
+    height: 365px;
+  }
+
+  /* Alinhamento do Componente Help */
+  .help {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnHelp {
+    width: 300px;
+    border-radius: 20px;
+    background-color: #19e835;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin: 30px;
+    font-weight: bold;
+  }
+  .contentHelp {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .btnWhats {
+    width: 230px;
+    border-radius: 20px;
+    background-color: #61ce70;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .whatsIcon {
+    margin-right: 5px;
+  }
+
+  /* Alinhamento do Componente Footer */
+  footer {
+    background-image: url('./images/footerBG.png');
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .copyright {
+    margin: 0px 15px;
+  }
+}
+
+@media screen and (min-width: 1441px){
+  /* Alinhamento do Componente Header */
+  .header {
+    background-image: url('./images/HeaderBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 90px 0px;
+  }
+
+  .title {
+    color: #bb00ff;
+    font-size: 50px;
+    margin-top: 70px;
+  }
+
+  .subtitle {
+    color: white;
+    font-size: 25px;
+    margin-top: 90px;
+  }
+
+  .subtitle2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 90px;
+  }
+
+  .btnHeader {
+    background-color: green;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+
+  /* Alinhamento do Componente FirstMain */
+  .firstMain {
+    background-color: white;
+  }
+
+  .offerPrice {
+    color: #ff0000;
+    font-size: 25px;
+  }
+
+  .forOf {
+    font-size: 25px;
+  }
+
+  .price10 {
+    color: #19e835;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .howDo {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .howWin {
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .howIncreaseSales {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .responsesMainContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsesMain {
+    background-image: url('./images/ResponsesBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: left;
+    color: white;
+    padding: 90px;
+    font-size: 20px;
+  }
+
+  .titleContent {
+    color: #bb00ff;
+    font-size: 40px;
+    margin-top: 80px;
+  }
+
+  .content {
+    text-align: left;
+    margin: 80px 350px 30px 350px;
+    font-size: 20px;
+  }
+
+  /* Alinhamento do Componente SecondMain */
+  .secondMain {
+    background-color: black;
+    padding: 40px;
+  }
+
+  .revelationTitle {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .cardsContainer {
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+  }
+
+  .card-1 {
+    color: white;
+    text-align: left;
+    margin: 0px 50px;
+  }
+  .card-2 {
+    color: white;
+    text-align: left;
+    margin: 0px 50px;
+  }
+  .card-3 {
+    color: white;
+    text-align: left;
+    margin: 0px 50px;
+  }
+  .titleCard {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .contentCard {
+    font-size: 22px;
+  }
+
+  .titlePrices {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  .card-price-1 {
+    background-image: url('./images/planBasicBG.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    padding: 48px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-price-2 {
+    background-image: url('./images/planSuperOfferBG.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    padding: 10px 17px;
+    display: flex;
+    flex-direction: column;
+  }
+  .titlePriceCards {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+  }
+  .subtitlePriceCards {
+    color: white;
+    margin-top: 5px;
+  }
+  .priceCards {
+    color: #19e835;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 40px 0px 0px;
+  }
+  .paymentForm {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .checkAvail {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 17px;
+  }
+  .noAvail {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 17px;
+  }
+  .btnPrice {
+    background-color: #19e835;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+
+  /* Alinhamento do Componente ThirdMain */
+  .thirdMain {
+    background-color: white;
+  }
+  .titleThirdMain {
+    color: #bb00ff;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .contentThirdMain {
+    font-size: 20px;
+    margin: 50px;
+  }
+  .titleWarranty {
+    font-size: 40px;
+    color: #bb00ff;
+    font-weight: bold;
+  }
+  .containerWarranty {
+    display: flex;
+    text-align: left;
+    margin: 30px 150px;
+    align-items: center;
+  }
+  .warrantySeal {
+    width: 350px;
+    height: 350px;
+  }
+  .sessionDiv {
+    border: black 1px solid;
+    width: 80%;
+  }
+
+  /* Alinhamento do Componente Biography */
+  .biography {
+    background-color: black;
+    padding: 40px 200px;
+    display: flex;
+    color: white;
+    text-align: left;
+  }
+  .titleProfile {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  .contentProfile {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  /* Alinhamento do Componente Help */
+  .help {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnHelp {
+    width: 300px;
+    border-radius: 20px;
+    background-color: #19e835;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin: 30px;
+    font-weight: bold;
+  }
+  .contentHelp {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .btnWhats {
+    width: 230px;
+    border-radius: 20px;
+    background-color: #61ce70;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .whatsIcon {
+    margin-right: 5px;
+  }
+
+  /* Alinhamento do Componente Footer */
+  footer {
+    background-image: url('./images/footerBG.png');
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .copyright {
+    margin: 0px 15px;
+  }
+}
