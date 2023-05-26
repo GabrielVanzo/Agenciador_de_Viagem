@@ -3,17 +3,17 @@
   "name": "Lançamento Curso Agenciador de Viagem",
   "icons": [
     {
-      "src": "../src/images/logoFooter.png",
+      "src": "%PUBLIC_URL%/logoFooter.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "../src/images/logoFooter.png",
+      "src": "%PUBLIC_URL%/logoFooter.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/images/logoFooter.png",
+      "src": "%PUBLIC_URL%/logoFooter.png",
       "type": "image/png",
       "sizes": "512x512"
     }
