@@ -7,8 +7,8 @@ import Help from './Components/Help';
 import Biography from './Components/Biography';
 import ThirdMain from './Components/ThirdMain';
 
-function App() {
-  return (
+  function App() {
+   return (
     <div className="App">
       <Header />
       <FirstMain />
